@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Vista Tarea entregada</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="avatar">
+            <img src="img/avatar.png" alt="Avatar">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Editar Perfil</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Cerrar Sesión </a></li>
+                <li><a href="#">Cerrar Sesión </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <div class="ntarea">
+            <div class="titulo">
+                <h2>Tarea Completada</h2>
+            </div>
+        </div>
+        <div class="tabltarea">
+            <div class="tarea">
+                <p>
+                    <dd> 1.Problema de suma:
+                        Juan tiene 8 caramelos y su amigo Pedro le da 5 caramelos más. ¿Cuántos caramelos tiene Juan en
+                        total?</dd>
+                    <br>
+                    <dd> 2.Problema de resta:
+                        Marta tenía 15 lápices, pero perdió 7 de ellos. ¿Cuántos lápices le quedan a Marta? </dd>
+                </p>
+                <center><img src="img/nino.jpg" alt="nino" width="90" height="86"></center>
+            </div>
+            <div class="solucion">
+                <div class="titulo2">
+                    <h2>Solución Tarea</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p>Aqui se mostrara la solucion proporcionada por el alumno</p>
+        </div>
+        <div class="butcalificar">
+            <button type="submit" onclick="obtenerCalificacionYComentario()">Agregar Calificación</button>
+            <div id="resultado-calificacion"></div>
+            <button  type="submit" onclick="iniciarapplt()">Lista de tareas</button>
+        </div>
+        <div class="butpaginicio">
+            <button type="submit">Tablero</button>
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
