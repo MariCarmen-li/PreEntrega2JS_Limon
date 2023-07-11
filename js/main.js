@@ -99,7 +99,6 @@ function mostrarMenu() {
       alert("Sesión finalizada");
     }
   
-    // Funciones agregadas
     var listaTareas = []; // Array para almacenar las tareas
   
     function agregarTarea() {
